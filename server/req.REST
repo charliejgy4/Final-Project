@@ -1,0 +1,36 @@
+POST http://localhost:3000/api/item/
+
+Content-type: application/json
+
+{
+"item": "This is the first todo item"
+
+}
+
+GET http://localhost:3000/api/item
+
+Content-type: application/json
+
+{
+"item": "This is the first todo item"
+
+}
+
+PUT  http://localhost:3000/api/item/:id
+
+Content-type: application/json
+
+{
+"item": "This is the first todo item"
+
+}
+
+DELETE  http://localhost:3000/api/item:id
+
+Content-type: application/json
+
+{
+"item": "This is the first todo item"
+
+}
+#
