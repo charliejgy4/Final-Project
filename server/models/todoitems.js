@@ -9,5 +9,5 @@ const TodoItemSchema = new mongoose.Schema({
   }
 })
 
-//export this Schema
+//export  Schema
 module.exports = mongoose.model('todo', TodoItemSchema);
